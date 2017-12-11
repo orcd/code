@@ -1,0 +1,6 @@
+src=$(wildcard ./*.c) #查找指定路径下的所有.c文件，给src赋值
+obj=$(patsubst %.c, %.o, $(src) ) #把$(src)中所有的.c替换成.o
+
+test:
+	echo $(obj)
+

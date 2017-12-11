@@ -1,0 +1,11 @@
+demo: xxx yyy
+	@#gcc test.c -o demo
+	@echo "hehehe"
+	@echo "xxxxxx"
+
+yyy:
+	echo "touch yyy"
+	touch yyy
+
+target:
+	echo "target"

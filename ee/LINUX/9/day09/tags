@@ -1,0 +1,94 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MyLock	11_封装互斥锁.cpp	/^	MyLock(pthread_mutex_t *tmp)$/;"	f	class:MyLock	access:public	signature:(pthread_mutex_t *tmp)
+MyLock	11_封装互斥锁.cpp	/^class MyLock$/;"	c	file:
+MyLock	12_封装互斥锁.cpp	/^	MyLock(pthread_mutex_t *tmp)$/;"	f	class:MyLock	access:public	signature:(pthread_mutex_t *tmp)
+MyLock	12_封装互斥锁.cpp	/^class MyLock$/;"	c	file:
+MyLock::MyLock	11_封装互斥锁.cpp	/^	MyLock(pthread_mutex_t *tmp)$/;"	f	class:MyLock	access:public	signature:(pthread_mutex_t *tmp)
+MyLock::MyLock	12_封装互斥锁.cpp	/^	MyLock(pthread_mutex_t *tmp)$/;"	f	class:MyLock	access:public	signature:(pthread_mutex_t *tmp)
+MyLock::lock	11_封装互斥锁.cpp	/^	void lock()$/;"	f	class:MyLock	access:public	signature:()
+MyLock::lock	12_封装互斥锁.cpp	/^	void lock()$/;"	f	class:MyLock	access:public	signature:()
+MyLock::p	11_封装互斥锁.cpp	/^	pthread_mutex_t *p;$/;"	m	class:MyLock	file:	access:private
+MyLock::p	12_封装互斥锁.cpp	/^	pthread_mutex_t *p;$/;"	m	class:MyLock	file:	access:private
+MyLock::unlock	11_封装互斥锁.cpp	/^	void unlock()$/;"	f	class:MyLock	access:public	signature:()
+MyLock::unlock	12_封装互斥锁.cpp	/^	void unlock()$/;"	f	class:MyLock	access:public	signature:()
+MyLock::~MyLock	11_封装互斥锁.cpp	/^	~MyLock()$/;"	f	class:MyLock	access:public	signature:()
+MyLock::~MyLock	12_封装互斥锁.cpp	/^	~MyLock()$/;"	f	class:MyLock	access:public	signature:()
+cond	15_互斥锁实现的生产者和消费者.c	/^pthread_cond_t cond;$/;"	v
+csem	17_信号量实现的消费者和生产者.c	/^sem_t csem, psem;$/;"	v
+custom_func	15_互斥锁实现的生产者和消费者.c	/^void * custom_func(void *p)$/;"	f	signature:(void *p)
+custom_func	17_信号量实现的消费者和生产者.c	/^void * custom_func(void *p)$/;"	f	signature:(void *p)
+flag	16_通过信号量实现互斥.c	/^sem_t flag;$/;"	v
+func	01_线程池.c	/^void * func(void *p)$/;"	f	signature:(void *p)
+func	02_线程池传参问题.c	/^void * func(void *p)$/;"	f	signature:(void *p)
+func	04_线程池传参问题.c	/^void * func(void *p)$/;"	f	signature:(void *p)
+func	10_线程池传参同步.c	/^void * func(void *p)$/;"	f	signature:(void *p)
+func_one	06_多线程的资源竞争.c	/^void * func_one(void *p)$/;"	f	signature:(void *p)
+func_one	07_互斥锁的使用.c	/^void * func_one(void *p)$/;"	f	signature:(void *p)
+func_one	09_互斥锁的使用.c	/^void * func_one(void *p)$/;"	f	signature:(void *p)
+func_one	12_封装互斥锁.cpp	/^void * func_one(void *p)$/;"	f	signature:(void *p)
+func_one	16_通过信号量实现互斥.c	/^void * func_one(void *p)$/;"	f	signature:(void *p)
+func_two	06_多线程的资源竞争.c	/^void * func_two(void *p)$/;"	f	signature:(void *p)
+func_two	07_互斥锁的使用.c	/^void * func_two(void *p)$/;"	f	signature:(void *p)
+func_two	09_互斥锁的使用.c	/^void * func_two(void *p)$/;"	f	signature:(void *p)
+func_two	12_封装互斥锁.cpp	/^void * func_two(void *p)$/;"	f	signature:(void *p)
+func_two	16_通过信号量实现互斥.c	/^void * func_two(void *p)$/;"	f	signature:(void *p)
+lock	07_互斥锁的使用.c	/^pthread_mutex_t lock;$/;"	v
+lock	08_互斥锁的特点.c	/^pthread_mutex_t lock;$/;"	v
+lock	09_互斥锁的使用.c	/^pthread_mutex_t lock;$/;"	v
+lock	10_线程池传参同步.c	/^pthread_mutex_t lock;$/;"	v
+lock	11_封装互斥锁.cpp	/^	void lock()$/;"	f	class:MyLock	access:public	signature:()
+lock	12_封装互斥锁.cpp	/^	void lock()$/;"	f	class:MyLock	access:public	signature:()
+lock	13_读写锁特点.c	/^pthread_rwlock_t lock;$/;"	v
+lock	14_读写锁的使用.c	/^pthread_rwlock_t lock;$/;"	v
+lock	15_互斥锁实现的生产者和消费者.c	/^pthread_mutex_t lock;$/;"	v
+main	01_线程池.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	02_线程池传参问题.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	03_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	04_线程池传参问题.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	05_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	06_多线程的资源竞争.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	07_互斥锁的使用.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	08_互斥锁的特点.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	09_互斥锁的使用.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	10_线程池传参同步.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	11_封装互斥锁.cpp	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	12_封装互斥锁.cpp	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	13_读写锁特点.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	14_读写锁的使用.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	15_互斥锁实现的生产者和消费者.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	16_通过信号量实现互斥.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	17_信号量实现的消费者和生产者.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main01	08_互斥锁的特点.c	/^int main01(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main01	12_封装互斥锁.cpp	/^int main01(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main01	13_读写锁特点.c	/^int main01(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+mutex	11_封装互斥锁.cpp	/^pthread_mutex_t mutex;$/;"	v
+mutex	12_封装互斥锁.cpp	/^pthread_mutex_t mutex;$/;"	v
+my_print	05_test.c	/^void my_print(char *str)$/;"	f	signature:(char *str)
+my_print	06_多线程的资源竞争.c	/^void my_print(char *str)$/;"	f	signature:(char *str)
+my_print	07_互斥锁的使用.c	/^void my_print(char *str)$/;"	f	signature:(char *str)
+my_print	09_互斥锁的使用.c	/^void my_print(char *str)$/;"	f	signature:(char *str)
+my_print	12_封装互斥锁.cpp	/^void my_print(char *str)$/;"	f	signature:(char *str)
+my_print	16_通过信号量实现互斥.c	/^void my_print(char *str)$/;"	f	signature:(char *str)
+num	01_线程池.c	/^int num = 0;$/;"	v
+num	14_读写锁的使用.c	/^int num = 0;$/;"	v
+num	15_互斥锁实现的生产者和消费者.c	/^int num = 0; \/\/产品个数$/;"	v
+num	17_信号量实现的消费者和生产者.c	/^int num = 1; \/\/产品个数$/;"	v
+p	11_封装互斥锁.cpp	/^	pthread_mutex_t *p;$/;"	m	class:MyLock	file:	access:private
+p	12_封装互斥锁.cpp	/^	pthread_mutex_t *p;$/;"	m	class:MyLock	file:	access:private
+produce_func	15_互斥锁实现的生产者和消费者.c	/^void * produce_func(void *p)$/;"	f	signature:(void *p)
+produce_func	17_信号量实现的消费者和生产者.c	/^void * produce_func(void *p)$/;"	f	signature:(void *p)
+psem	17_信号量实现的消费者和生产者.c	/^sem_t csem, psem;$/;"	v
+read_func	14_读写锁的使用.c	/^void * read_func(void *p)$/;"	f	signature:(void *p)
+test_one	08_互斥锁的特点.c	/^void test_one()$/;"	f
+test_two	08_互斥锁的特点.c	/^void test_two()$/;"	f
+total	17_信号量实现的消费者和生产者.c	/^int total = 100;$/;"	v
+unlock	11_封装互斥锁.cpp	/^	void unlock()$/;"	f	class:MyLock	access:public	signature:()
+unlock	12_封装互斥锁.cpp	/^	void unlock()$/;"	f	class:MyLock	access:public	signature:()
+write_func	14_读写锁的使用.c	/^void * write_func(void *p)$/;"	f	signature:(void *p)
+~MyLock	11_封装互斥锁.cpp	/^	~MyLock()$/;"	f	class:MyLock	access:public	signature:()
+~MyLock	12_封装互斥锁.cpp	/^	~MyLock()$/;"	f	class:MyLock	access:public	signature:()

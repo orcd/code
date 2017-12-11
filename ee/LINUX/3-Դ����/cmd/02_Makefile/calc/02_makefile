@@ -1,0 +1,21 @@
+calc: add.o div.o mul.o sub.o main.o
+	cc add.o div.o mul.o sub.o main.o -o calc
+
+add.o:add.c
+	cc -c add.c
+
+div.o:div.c
+	gcc -c div.c
+
+mul.o:mul.c
+	gcc -c mul.c
+
+sub.o:sub.c
+	gcc -c sub.c
+	
+main.o:main.c
+	gcc -c main.c
+
+clean:
+	rm calc *.o
+

@@ -1,0 +1,15 @@
+obj=add.o div.o mul.o main.o sub.o
+target=calc
+CFLAGS=-Wall
+
+$(target): $(obj)
+	$(CC) $^ -o $@ 
+
+#模式匹配
+%.o:%.c
+	@#$(CC) -c $< -o $@
+	$(CC) -c $< $(CFLAGS)
+	
+clean:
+	rm $(target) $(obj) -f
+

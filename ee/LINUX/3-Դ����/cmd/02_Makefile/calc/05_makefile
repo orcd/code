@@ -1,0 +1,21 @@
+obj=add.o div.o mul.o main.o sub.o
+mobj = add.o main.o
+target=calc
+
+$(target): $(mobj)
+	@#echo $@ #$@代表目标
+	@#echo $< #依赖条件中第一个条件
+	@#echo $^ #获取依赖条件，去掉重复项
+	$(CC) $^ -o $@
+
+test: $(obj)
+	echo "hehehe"
+
+#模式匹配
+%.o:%.c
+	$(CC) -c $< -o $@
+
+	
+clean:
+	rm $(target) $(obj) -f
+

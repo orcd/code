@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+a	13_fork之前的变量分析.c	/^int a = 10;$/;"	v
+main	01_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	02_进程号.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	03_创建子进程.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	04_子进程特点.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	05_父子进程是独立的.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	06_区分父子进程.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	07_控制父子进程执行顺序.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	08_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	09_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	10_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	11_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	12_fork之后的变量分析.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	12_zombie.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	13_fork之前的变量分析.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	14_多进程实现多任务.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	15_多进程的创建.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	16_多个兄弟进程的创建.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	17_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	18_exit库函数和系统调用的区别.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	19_zombie.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	20_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	21_waitpid.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])

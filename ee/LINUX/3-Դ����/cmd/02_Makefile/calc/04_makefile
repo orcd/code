@@ -1,0 +1,25 @@
+obj=add.o div.o mul.o main.o sub.o
+target=calc
+
+$(target): $(obj)
+	echo $(obj)
+	$(CC) $(obj) -o $(target)
+
+add.o:add.c
+	$(CC) -c add.c
+
+div.o:div.c
+	$(CC) -c div.c
+
+mul.o:mul.c
+	$(CC) -c mul.c
+
+sub.o:sub.c
+	$(CC) -c sub.c
+	
+main.o:main.c
+	$(CC) -c main.c
+
+clean:
+	rm $(target) $(obj)
+

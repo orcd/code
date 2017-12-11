@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+main	01_进程替换/01_execl.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	01_进程替换/02_execv.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	01_进程替换/03_system.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	01_进程替换/mike.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	01_进程替换/test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	02_multi_process/02_multi_process.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	02_multi_process/dump_error.c	/^int main()$/;"	f
+main	02_multi_process/test.c	/^int main()$/;"	f
+main	03_pipe.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	04_pipe.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	05_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	06_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	07_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	08_设置非阻塞.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	09_mkfifo.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	10_fifo/r_demo.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	10_fifo/w_demo.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	11_fifo/r_demo.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	11_fifo/w_demo.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	12_map_file.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main02	05_test.c	/^int main02(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+my_system	01_进程替换/03_system.c	/^int my_system(char *cmd)$/;"	f	signature:(char *cmd)

@@ -1,0 +1,57 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAX	01_fgets_fputs实现的排序.c	15;"	d	file:
+MAX	02_文件版四则运算.c	16;"	d	file:
+MAX	06_fprintf和fscanf实现的排序.c	15;"	d	file:
+Stu	13_随机读内容.c	/^}Stu;$/;"	t	typeref:struct:Student	file:
+Student	07_fwrite的使用.c	/^typedef struct Student$/;"	s	file:
+Student	07_fwrite的使用.c	/^}Student;$/;"	t	typeref:struct:Student	file:
+Student	08_fread的使用.c	/^typedef struct Student$/;"	s	file:
+Student	08_fread的使用.c	/^}Student;$/;"	t	typeref:struct:Student	file:
+Student	13_随机读内容.c	/^typedef struct Student$/;"	s	file:
+Student::age	07_fwrite的使用.c	/^	int age;$/;"	m	struct:Student	file:	access:public
+Student::age	08_fread的使用.c	/^	int age;$/;"	m	struct:Student	file:	access:public
+Student::name	07_fwrite的使用.c	/^	char name[50];$/;"	m	struct:Student	file:	access:public
+Student::name	08_fread的使用.c	/^	char name[50];$/;"	m	struct:Student	file:	access:public
+Student::name	13_随机读内容.c	/^	char name[60];$/;"	m	struct:Student	file:	access:public
+Student::score	07_fwrite的使用.c	/^	int score;$/;"	m	struct:Student	file:	access:public
+Student::score	08_fread的使用.c	/^	int score;$/;"	m	struct:Student	file:	access:public
+age	07_fwrite的使用.c	/^	int age;$/;"	m	struct:Student	file:	access:public
+age	08_fread的使用.c	/^	int age;$/;"	m	struct:Student	file:	access:public
+calc	02_文件版四则运算.c	/^int calc(int a, int b, char ch)$/;"	f	signature:(int a, int b, char ch)
+main	01_fgets_fputs实现的排序.c	/^int main()$/;"	f
+main	02_文件版四则运算.c	/^int main()$/;"	f
+main	03_test.c	/^int main()$/;"	f
+main	04_fprintf.c	/^int main()$/;"	f
+main	05_fscanf.c	/^int main()$/;"	f
+main	06_fprintf和fscanf实现的排序.c	/^int main()$/;"	f
+main	07_fwrite的使用.c	/^int main()$/;"	f
+main	08_fread的使用.c	/^int main()$/;"	f
+main	09_cp命令的实现.c	/^int main(int n, char **p)$/;"	f	signature:(int n, char **p)
+main	10_test.c	/^int main()$/;"	f
+main	11_test.c	/^int main()$/;"	f
+main	12_fseek返回值验证.c	/^int main()$/;"	f
+main	13_随机读内容.c	/^int main()$/;"	f
+main	14_随机位置读写.c	/^int main()$/;"	f
+main	15_stat.c	/^int main()$/;"	f
+main	16_test.c	/^int main()$/;"	f
+main	17_缓冲区验证.c	/^int main()$/;"	f
+main01	07_fwrite的使用.c	/^int main01()$/;"	f
+main02	05_fscanf.c	/^int main02()$/;"	f
+name	07_fwrite的使用.c	/^	char name[50];$/;"	m	struct:Student	file:	access:public
+name	08_fread的使用.c	/^	char name[50];$/;"	m	struct:Student	file:	access:public
+name	13_随机读内容.c	/^	char name[60];$/;"	m	struct:Student	file:	access:public
+read_file	01_fgets_fputs实现的排序.c	/^void read_file()$/;"	f
+read_file	02_文件版四则运算.c	/^void read_file()$/;"	f
+read_file	06_fprintf和fscanf实现的排序.c	/^void read_file()$/;"	f
+read_file	13_随机读内容.c	/^void read_file()$/;"	f
+score	07_fwrite的使用.c	/^	int score;$/;"	m	struct:Student	file:	access:public
+score	08_fread的使用.c	/^	int score;$/;"	m	struct:Student	file:	access:public
+write_file	01_fgets_fputs实现的排序.c	/^void write_file()$/;"	f
+write_file	02_文件版四则运算.c	/^void write_file()$/;"	f
+write_file	06_fprintf和fscanf实现的排序.c	/^void write_file()$/;"	f
+write_file	13_随机读内容.c	/^void write_file()$/;"	f

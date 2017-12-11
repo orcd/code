@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+main	18_test.c	/^int main()$/;"	f
+main	main.c	/^int main()$/;"	f
+my_strlen	main.c	/^extern int my_strlen(char str[]);$/;"	p	file:	signature:(char str[])
+my_strlen	str.c	/^int my_strlen(char str[])$/;"	f	signature:(char str[])
+printf	18_test.c	/^extern int printf (const char *__restrict __format, ...);$/;"	p	file:	signature:(const char *__restrict __format, ...)

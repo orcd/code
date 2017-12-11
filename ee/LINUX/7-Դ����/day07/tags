@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+func	07_定时器.c	/^void func(int sig) \/\/信号处理函数$/;"	f	signature:(int sig)
+func	08_统计1s累加多少次.c	/^void func(int a)$/;"	f	signature:(int a)
+func	09_单任务验证.c	/^void func(int a)$/;"	f	signature:(int a)
+func	11_定时器2.c	/^void func(int sig) \/\/信号处理函数$/;"	f	signature:(int sig)
+func	12_siganl.c	/^void func(int sig)$/;"	f	signature:(int sig)
+func	15_信号阻塞集2.c	/^void func(int sig)$/;"	f	signature:(int sig)
+func	16_获取没有处理信号集合.c	/^void func(int sig)$/;"	f	signature:(int sig)
+func	17_sigaction.c	/^void func(int sig)$/;"	f	signature:(int sig)
+func	18_信号传参/recv.c	/^void func(int sig, siginfo_t *info, void *p)$/;"	f	signature:(int sig, siginfo_t *info, void *p)
+i	08_统计1s累加多少次.c	/^long long i = 0;$/;"	v
+i	09_单任务验证.c	/^long long i = 0;$/;"	v
+main	01_获取共享内存.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	02_删除共享内存.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	03_共享内存映射/r_demo.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	03_共享内存映射/w_demo.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	04_kill.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	05_raise.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	06_alarm.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	07_定时器.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	08_统计1s累加多少次.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	09_单任务验证.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	10_setitimer.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	11_定时器2.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	12_siganl.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	13_信号集合操作.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	14_信号阻塞集.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	15_信号阻塞集2.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	16_获取没有处理信号集合.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	17_sigaction.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	18_信号传参/recv.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	18_信号传参/send.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+test	16_获取没有处理信号集合.c	/^void test()$/;"	f

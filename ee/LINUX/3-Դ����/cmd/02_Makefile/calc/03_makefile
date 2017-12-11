@@ -1,0 +1,7 @@
+src=a.c  #自定义变量
+CPPFLAGS=./inlcude
+
+demo:
+	echo $(src)
+	echo $(CC) #预定义变量，可以直接使用，也可以修改， 代表gcc
+	echo $(CPPFLAGS)
